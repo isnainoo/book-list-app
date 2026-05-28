@@ -1,21 +1,4 @@
 # 📚 Flutter Book List App
-
-A modern Flutter application for displaying a collection of books with a beautiful UI, search functionality, Hero animations, and detailed book pages.
-
----
-
-## ✨ Features
-
-- 📖 Display book list using `ListView.builder`
-- 🔍 Search books by:
-  - Title
-  - Author
-  - Description
-- 🎨 Modern and clean UI design
-- 🚀 Smooth Hero animations
-- 📄 Detailed book information page
-- 📱 Responsive Flutter layout
-
 ---
 
 # 📌 Task Requirements
@@ -127,30 +110,19 @@ Hero(
   tag: 'book-icon-$index',
 )
 ```
-
-### Result
-
-- Smooth icon transition
-- Modern page animation experience
-
 ---
 
-# 🔍 Search Feature
+## ✨ Features
 
-The application supports searching books based on:
-
-- Book title
-- Author name
-- Book description
-
----
-
-# 🛠️ Technologies Used
-
-- Flutter
-- Dart
-- Material Design
-
+- 📖 Display book list using `ListView.builder`
+- 🔍 Search books by:
+  - Title
+  - Author
+  - Description
+- 🎨 Modern and clean UI design
+- 🚀 Smooth Hero animations
+- 📄 Detailed book information page
+- 📱 Responsive Flutter layout
 ---
 
 # 👨‍💻 Author
