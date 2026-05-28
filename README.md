@@ -1,17 +1,66 @@
-# book_list_app
+# 📚 Flutter Book List App
 
-A new Flutter project.
+A modern Flutter application for displaying a list of books with beautiful UI, search functionality, Hero animations, and detailed book pages.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Preview
 
-A few resources to get you started if this is your first Flutter project:
+### Home Page
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Modern card layout
+* Animated search bar
+* Book information preview
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Detail Page
+
+* Hero animation transition
+* Beautiful gradient header
+* Book description section
+
+---
+## 📂 Project Structure
+
+```bash
+lib/
+├── data/
+│   └── dummy_books.dart
+│
+├── models/
+│   └── book.dart
+│
+├── pages/
+│   ├── home_page.dart
+│   └── detail_page.dart
+│
+└── main.dart
+```
+
+## 🔍 Search Feature
+
+The app supports searching books based on:
+
+* Book title
+* Author name
+* Book description
+
+---
+
+## 🎨 UI Features
+
+* Rounded modern cards
+* Gradient book icons
+* Smooth animations
+* Shadow effects
+* Scroll interaction
+* Animated search bar hide/show
+
+---
+
+
+## 👨‍💻 Author
+
+Developed by:
+**Isna Choiron Nasikhin**
+
+Teknik Informatika — Universitas Muhammadiyah Surakarta
