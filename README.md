@@ -160,3 +160,14 @@ Developed by:
 **Isna Choiron Nasikhin**  
 L200230037  
 Teknik Informatika — Universitas Muhammadiyah Surakarta
+
+---
+
+
+![Project Preview](https://github.com/isnainoo/photobooth-app/blob/main/photobooth-17685366141710.jpg)
+
+![Project Preview](https://github.com/isnainoo/photobooth-app/blob/main/photobooth-17685366141710.jpg)
+
+![Project Preview](https://github.com/isnainoo/photobooth-app/blob/main/photobooth-17685366141710.jpg)
+
+![Project Preview](https://github.com/isnainoo/photobooth-app/blob/main/photobooth-17685366141710.jpg)
