@@ -1,44 +1,71 @@
-# Flutter Book List App
+# 📚 Flutter Book List App
 
-A modern Flutter application for displaying a list of books with beautiful UI, search functionality, Hero animations, and detailed book pages.
+A modern Flutter application for displaying a collection of books with a beautiful UI, search functionality, Hero animations, and detailed book pages.
 
 ---
-Task Requirements
 
-1. Buat project: book_list_app
-✅ Selesai
+## ✨ Features
 
-2. Model Book: title, author, description, year
-✅ Selesai
+- 📖 Display book list using `ListView.builder`
+- 🔍 Search books by:
+  - Title
+  - Author
+  - Description
+- 🎨 Modern and clean UI design
+- 🚀 Smooth Hero animations
+- 📄 Detailed book information page
+- 📱 Responsive Flutter layout
 
-Model Book telah dibuat dengan properti:
-title
-author
-description
-year
+---
 
-File: lib/models/book.dart
+# 📌 Task Requirements
 
-3. HomePage: ListView.builder, 5 buku dummy
-✅ Selesai
+## 1. Create Project: `book_list_app`
+✅ Completed
 
-HomePage menggunakan:
-ListView.builder
-Data dummy buku
-Modern UI card design
+---
 
-File: lib/pages/home_page.dart
+## 2. Book Model
+✅ Completed
 
-Dummy data: lib/data/dummy_books.dart
+The `Book` model contains:
 
-4. Setiap ListTile onTap: Navigator.push ke DetailPage
-✅ Selesai
+- `title`
+- `author`
+- `description`
+- `year`
 
-Ketika card buku ditekan:
-aplikasi berpindah ke halaman detail
-menggunakan Navigator.push()
+📂 File:
+```bash
+lib/models/book.dart
+```
 
-Implementasi:
+---
+
+## 3. HomePage with `ListView.builder`
+✅ Completed
+
+The `HomePage` includes:
+
+- `ListView.builder`
+- 5 dummy book data
+- Modern card UI design
+
+📂 Files:
+```bash
+lib/pages/home_page.dart
+lib/data/dummy_books.dart
+```
+
+---
+
+## 4. Navigation to DetailPage
+✅ Completed
+
+Each book card can be tapped to navigate to the detail page using `Navigator.push()`.
+
+### Implementation
+```dart
 Navigator.push(
   context,
   MaterialPageRoute(
@@ -48,14 +75,17 @@ Navigator.push(
     ),
   ),
 );
+```
 
-5. DetailPage terima Book via constructor
-✅ Selesai
+---
 
-DetailPage menerima object Book melalui constructor.
+## 5. DetailPage Receives Book via Constructor
+✅ Completed
 
-Implementasi:
+`DetailPage` receives a `Book` object through its constructor.
 
+### Implementation
+```dart
 final Book book;
 
 const DetailPage({
@@ -63,52 +93,70 @@ const DetailPage({
   required this.book,
   required this.heroIndex,
 });
+```
 
-6. Tampilkan semua info buku di DetailPage
-✅ Selesai
+---
 
-Halaman detail menampilkan:
-Judul buku
-Nama penulis
-Tahun terbit
-Deskripsi lengkap buku
+## 6. Display All Book Information
+✅ Completed
 
-Dengan UI:
-Gradient header
-Modern card
-Shadow effect
-Rounded design
+The detail page displays:
 
-⭐ Bonus: Hero pada icon buku list → detail
-✅ Selesai
+- 📘 Book title
+- ✍️ Author name
+- 📅 Publication year
+- 📝 Full description
 
-Hero animation berhasil diterapkan pada icon buku.
-Implementasi:
+### UI Features
 
+- Gradient header
+- Modern card design
+- Shadow effects
+- Rounded corners
+
+---
+
+# ⭐ Bonus Feature: Hero Animation
+✅ Completed
+
+Hero animation is implemented between the book icon in the list and the detail page.
+
+### Implementation
+```dart
 Hero(
   tag: 'book-icon-$index',
 )
+```
 
-Efek:
+### Result
 
-icon buku animasi smooth
-transisi modern antar halaman
-
----
-## 🔍 Search Feature
-
-The app supports searching books based on:
-
-* Book title
-* Author name
-* Book description
+- Smooth icon transition
+- Modern page animation experience
 
 ---
 
+# 🔍 Search Feature
 
-## 👨‍💻 Author
+The application supports searching books based on:
+
+- Book title
+- Author name
+- Book description
+
+---
+
+# 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Material Design
+
+---
+
+# 👨‍💻 Author
 
 Developed by:
-**Isna Choiron Nasikhin**
-L200230037
+
+**Isna Choiron Nasikhin**  
+L200230037  
 Teknik Informatika — Universitas Muhammadiyah Surakarta
