@@ -112,19 +112,6 @@ Hero(
 ```
 ---
 
-## ✨ Features
-
-- 📖 Display book list using `ListView.builder`
-- 🔍 Search books by:
-  - Title
-  - Author
-  - Description
-- 🎨 Modern and clean UI design
-- 🚀 Smooth Hero animations
-- 📄 Detailed book information page
-- 📱 Responsive Flutter layout
----
-
 # 👨‍💻 Author
 
 Developed by:
